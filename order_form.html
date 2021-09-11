@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	<title>Ordering form</title> 
+	<script src="linked1.js"></script>
+</head>
+
+<body>
+<h1>PizzasOnly ordering form</h1>
+<p>Simply enter the number of pizzas you want into the input below to find out the cost of your order</p>
+<form action="#" method="post" id="orderForm" onsubmit="return checkQuantity()">
+	
+	<p>
+		<label for="quantity">Enter number of pizzas wanted:</label>
+        <input name="quantity" id="quantity">
+		
+	</p>
+	<p>
+		<input value="Total cost" type="submit">
+
+	</p>
+</form>
+    <div id="message"></div>
+</body>
+</html>

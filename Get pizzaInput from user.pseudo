@@ -1,0 +1,19 @@
+Get pizzaInput from user
+if pizzaInput NaN or <1
+    Validation Error
+Else
+if pizzaInput = 1 Print 1 + pizzaCost1
+if pizzaInput = 2 Print 2 + pizzaCost2
+if pizzaInput = 3 Print 3 + pizzaCost3
+do pizzaInput >4 
+    pizzaInput / 3 = pizzaInt
+    pizzaInt * pizzaPrice3 = pizzaTotal
+    pizzaInt - pizzaInput = pizzaInt
+    if pizzaInt = 2
+        pizzaTotal + pizzaInt * pizzaCost2
+        pizzaInt - pizzaInt = 0
+    else if
+        pizzaInt = 1
+        pizzaTotal + pizzaInt * pizzaCost1
+        pizzaInt - pizzaInt = 0
+while pizzaInput != 0
